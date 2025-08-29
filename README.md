@@ -23,7 +23,7 @@ This repository presents the parameters, input files and raw data corresponding 
 
     	"Atomistic simulations of wild-type BthTx-I and double the double mutants W77H/L10W and W77H/V31W. Three independet replica simulations were performed for each protein (repl1, repl2, repl3)"
 	
-        │
+        │__
         ├── mdp
         │   ├── 1. minim.mdp
         │   ├── 1. nvt.mdp
