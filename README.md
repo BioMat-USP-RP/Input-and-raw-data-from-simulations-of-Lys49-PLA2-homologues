@@ -1,19 +1,22 @@
-#Data for simulations of bothropstoxin-I (BthTx-I) and mutants in water and membrane#
+# Data for simulations of bothropstoxin-I (BthTx-I) and mutants in water and membrane
 
 This repository presents the parameters, input files and raw data corresponding to the study:
-    #Conformational plasticity and membrane binding govern functional dimer states of lys49-pla₂
 
--Input files for MD simulations of the systems (mdp files) using the GROMACS software;
+**Conformational plasticity and membrane binding govern functional dimer states of lys49-pla₂**
 
--Topology files;
+ -Input files for MD simulations of the systems (mdp files) using the GROMACS software;
+ 
+ -Topology files;
+ 
+ -Final structures for all simulations;
+ 
+ -Raw data of the analysis presented in the paper;
+ 
+ -Scripts used for analysis
 
--Final structures for all simulations;
-
--Raw data of the analysis presented in the paper;
-
--Scripts used for analysis
 
 ```bash
+
 Summary of content
 
 protein_in_water
@@ -47,4 +50,4 @@ protein_in_water
     ├── npt-5.mdp
     └── nvt.mdp
 
-```bash
+```
