@@ -1,0 +1,50 @@
+;
+;	File 'topol.top' was generated
+;	By user: vinicius (1000)
+;	On host: rouchet
+;	At date: Wed Jun 26 16:58:45 2024
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	                    :-) GROMACS - gmx pdb2gmx, 2019.4 (-:
+;	
+;	Executable:   /usr/local/gromacs-2019.4-plumed-2.5.7/bin/gmx
+;	Data prefix:  /usr/local/gromacs-2019.4-plumed-2.5.7
+;	Working dir:  /home/vinicius/Projects/Venom/mutants/3hzd/native
+;	Command line:
+;	  gmx pdb2gmx -f out.pdb
+;	Force field was read from the standard GROMACS share directory.
+;
+
+; Include forcefield parameters
+#include "gromos54a7_old_ions.ff/forcefield.itp"
+
+; Include chain topologies
+#include "topol_Protein_chain_A.itp"
+#include "topol_Protein_chain_B.itp"
+
+; Include water topology
+#include "gromos54a7_old_ions.ff/spc.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+; Include topology for ions
+#include "gromos54a7_old_ions.ff/ions.itp"
+
+[ system ]
+; Name
+PHOSPHOLIPASE A2 HOMOLOG BOTHROPSTOXIN-1; 5 BTXTXI, BOJU-I, MYOTOXIC PHOSPHOLIPASE A2-LIKE in water
+
+[ molecules ]
+; Compound        #mols
+Protein_chain_A     1
+Protein_chain_B     1
+
+SOL         80020
+CL               22
