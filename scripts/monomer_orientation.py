@@ -2,6 +2,7 @@ import MDAnalysis as mda
 import numpy as np
 import argparse
 
+# Script used for calculation of azimuthal and tilt angle, as described in the paper
 
 def calculate_angle(vec1, vec2):
 

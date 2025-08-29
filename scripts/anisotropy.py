@@ -2,6 +2,11 @@ import MDAnalysis as mda
 import numpy as np
 import pandas as pd
 
+# Script used for analyis of geometric parameters later used for calculation of FRET efficience
+# Orientation factor
+# Trp distance
+# Angles theta t, d and a, as described in the paper
+
 def calculate_angle(vec1, vec2):
 
     dot_product = np.inner(vec1, vec2)
