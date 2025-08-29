@@ -15,7 +15,7 @@ This repository presents the parameters, input files and raw data corresponding 
 -Scripts used for analysis
 
 
-Summary of content
+	Summary of content
 
     |
     |   
@@ -59,24 +59,6 @@ Summary of content
         │
         └── extended_model_dimer
 
-
-    |
-    |   
-    └── protein_in_membrane
-        │
-        ├── mdp
-        │   ├── 1. minim.mdp
-        │   ├── 1. nvt.mdp
-        │   ├── 2. npt-1.mdp
-        │   ├── 3. npt-2.mdp
-        │   ├── 4. npt-3.mdp
-        │   ├── 5. npt-4.mdp    
-        │   └── 6. npt-5.mdp
-        │
-        ├── compact_model_dimer
-        │   │
-        │   ├── wt
-	
 
 
 
