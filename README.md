@@ -14,7 +14,7 @@ This repository presents the parameters, input files and raw data corresponding 
 
 -Scripts used for analysis
 
-
+```bash
 	Summary of content
 
     |
@@ -25,7 +25,7 @@ This repository presents the parameters, input files and raw data corresponding 
 	
         │
         ├── mdp
-        │___├── 1. minim.mdp
+        │   ├── 1. minim.mdp
         │   ├── 1. nvt.mdp
         │   ├── 2. npt-1.mdp
         │   ├── 3. npt-2.mdp
@@ -58,7 +58,7 @@ This repository presents the parameters, input files and raw data corresponding 
         │   └── w77h-v31w
         │
         └── extended_model_dimer
-
+```
 
 
 
